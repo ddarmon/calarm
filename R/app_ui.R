@@ -3,8 +3,9 @@
 #' @return shiny ui
 #' @export
 #'
-ui <- fluidPage(
+ui <- function() {
+  fluidPage(
 
   h2(plotOutput("currentTime"))
 
-)
+)}
